@@ -8,14 +8,12 @@
 #  * prints the answer to the screen
 
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def main():
-  print("\n----------------------------------------")
+print("\n----------------------------------------")
 
-  FirstNumber = input("Enter first integer: ") # prompt for first number
-  SecondNumber = input("Enter second integer: ") # prompt for second number
+FirstNumber = input("Enter first integer: ") # prompt for first number
+SecondNumber = input("Enter second integer: ") # prompt for second number
 
-  print("\nAdding " + str(FirstNumber) + " and: " + str(SecondNumber) + " results in: " + str(int(FirstNumber) + int(SecondNumber)))
+print(str(FirstNumber) + " + " + str(SecondNumber) + " = " + str(int(FirstNumber) + int(SecondNumber)))
 
-  print("----------------------------------------\n")
+print("----------------------------------------\n")
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-main()
