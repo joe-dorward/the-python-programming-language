@@ -1,6 +1,6 @@
 ## Getting Started With Python
 
-<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">**Python**</a><img src="../illustrations/external_link.png" />
+<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">**Python**</a><img src="../../illustrations/external_link.png" />
 is a widely-used, high-level, programming language.
 
 ## Pre-requisites
@@ -10,7 +10,7 @@ is a widely-used, high-level, programming language.
 
 * Download and install VS (Visual Studio) Code from <a href="https://code.visualstudio.com/download" target="_blank">here</a>
 
-**Note** Older computers will require the installation of older versions. I have VS Code 1.79.2 running on Windows 8.
+**Note** Older computers will require the installation of older versions. You will have to deduce which version to install. I have VS Code 1.79.2 running on Windows 8.
 
 * Run VS Code
 * Add the Python extension
