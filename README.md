@@ -1,6 +1,6 @@
 ## Getting Started With Python
 
-<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">**Python**</a><img src="../samples/illustrations/external_link.png" />
+<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">**Python**</a><img src="../samples/2022_illustrations/external_link.png" />
 is a widely-used, high-level, programming language.
 
 ## Pre-requisites
