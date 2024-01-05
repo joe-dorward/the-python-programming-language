@@ -105,7 +105,7 @@ def Get_Topic_Content():
     # gets the Topic 'content'
     print("[DEBUG] > Get_Topic_Footer() called")
 
-    Content = "<p>Because of the simple nature of the aplication that"
+    Content = "\n<p>Because of the simple nature of the aplication that"
     Content = Content + " created this file, this content can only be generic.</p>"
 
     return(Content)
