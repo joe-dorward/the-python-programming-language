@@ -13,8 +13,6 @@ from tkinter import Tk, Label, Button
 import os # to get PATH information
 # ---------- ---------- ---------- ----------
 
-#from tkinter import Tk, LabelFrame, Label, Entry, Button, StringVar, messagebox, Checkbutton, IntVar
-#import xml.dom.minidom
 # ////////// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 def Add_Path_Label():
   # adds the path label
