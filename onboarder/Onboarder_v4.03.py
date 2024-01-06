@@ -72,7 +72,7 @@ def Add_Create_TeamFolder_Button():
     LEFT = CONST.X_OFFSET
 
     Create_TeamFolder_Button = Button(Onboarder,text="Create Team Folder",command=Create_TeamFolder)
-    Create_TeamFolder_Button.place(x=LEFT,y=CONST.CONTROLS_TOP, width=CONST.BUTTON_WIDTH)
+    Create_TeamFolder_Button.place(x=LEFT,y=CONST.CONTROLS_TOP,width=CONST.BUTTON_WIDTH)
     Create_TeamFolder_Button.focus_set
     # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 def Create_TeamFolder():
@@ -96,8 +96,8 @@ def Get_Topic_Header(filename,title):
     Header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
     Header = Header + "\n<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">"
     Header = Header + "\n<topic id=\"" + filename + "\">"
-    Header = Header + "\n <title>" + title + "</title>"
-    Header = Header + "\n <body>"
+    Header = Header + "\n  <title>" + title + "</title>"
+    Header = Header + "\n  <body>"
 
     return(Header)
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
@@ -105,7 +105,7 @@ def Get_Topic_Content():
     # gets the Topic 'content'
     print("[DEBUG] > Get_Topic_Footer() called")
 
-    Content = "\n<p>Because of the simple nature of the aplication that"
+    Content = "\n    <p>Because of the simple nature of the aplication that"
     Content = Content + " created this file, this content can only be generic.</p>"
 
     return(Content)
@@ -114,7 +114,7 @@ def Get_Topic_Footer():
     # gets the Topic 'footer' XML
     print("[DEBUG] > Get_Topic_Footer() called")
 
-    Footer = "\n </body>"
+    Footer = "\n  </body>"
     Footer = Footer + "\n</topic>"
 
     return(Footer)
