@@ -1,0 +1,26 @@
+VERSION = "(v4.07)"
+
+# set UI proportions to 16:9
+ONBOARDER_WIDTH = 160 * 5.9
+ONBOARDER_HEIGHT = 90 * 5.9
+
+BUTTON_WIDTH = 150
+BUTTON_HEIGHT = 20
+
+X_OFFSET = 10
+Y_OFFSET = X_OFFSET + 8
+
+INFORMATION_WRAP = ONBOARDER_WIDTH - (X_OFFSET * 2)
+
+CONTROLS_TOP = 338
+
+# TM (Team Member)
+TM_ENTRY_WIDTH = 230
+TM_ENTRY_LEFT = 90
+TM_WIDTH = TM_ENTRY_LEFT + TM_ENTRY_WIDTH + (X_OFFSET + 6) # the width of the LabelFrame
+TM_HEIGHT = 149 # the heoght of the LabelFrame
+
+# OC (Onboarding Content)
+OC_LEFT = 517
+OC_WIDTH = 365
+OC_HEIGHT = TM_HEIGHT + 29
