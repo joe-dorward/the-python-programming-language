@@ -594,6 +594,7 @@ def Get_Bookmap_Header(Name,Reports):
 
     Header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
     Header = Header + "\n<!DOCTYPE bookmap PUBLIC \"-//OASIS//DTD DITA BookMap//EN\" \"bookmap.dtd\">"
+    Header = Header + "\n<!-- THIS IS A GENERATED FILE - DO NOT EDIT -->"
     Header = Header + "\n<bookmap>"
     Header = Header + "\n  <booktitle>"
     Header = Header + "\n    <mainbooktitle>Onboarding Content</mainbooktitle>"
