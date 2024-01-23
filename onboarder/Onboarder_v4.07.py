@@ -635,6 +635,8 @@ Add_TeamMember_LableFrame()
 Add_OnboardingContent_LableFrame()
 Add_Create_BookmapFile_Button()
 
+print("\n[LAUNCHING] Onboarder",CONST.VERSION)
+
 Onboarder.mainloop()
 print("----------------------------------------------------\n")
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
