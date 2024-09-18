@@ -1,6 +1,6 @@
 The first version of the Tkinter UI is a 'blank' window
 
-![ui_v1.01](/illustrations/ui_v1.01.png)
+![ui_v1.01](illustrations/ui_v1.01.png)
 
 The Python code, makes the minimum import reference to `Tk`, and then sizes & positions the 'blank' window.
 ```Python
