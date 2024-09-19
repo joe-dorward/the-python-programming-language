@@ -4,7 +4,7 @@ Just copy-n-paste each version of the self-contained application as I go, and ha
  
 This version, adds the **File** menu.
 
-![ui_v1.02](illustrations/ui_v1.02.png)
+![ui_v1.02_menubar.py](illustrations/ui_v1.02_menubar.png)
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
