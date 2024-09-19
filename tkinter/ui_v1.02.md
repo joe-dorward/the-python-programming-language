@@ -1,4 +1,8 @@
-This version, adds the **File** menu
+I'm digging more deeply into the use of the Tkinter package (it comes with Python) to create Python applications with 'proper' user interfaces. If you have (or can get) Python installed, you can follow along at home. 
+ 
+Just copy-n-paste each version of the self-contained application as I go, and have fun!
+ 
+This version, adds the **File** menu.
 
 ![ui_v1.02](illustrations/ui_v1.02.png)
 
