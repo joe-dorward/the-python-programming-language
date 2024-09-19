@@ -25,7 +25,7 @@ This version, adds the **Simpledialog** menu, and the **Ask Integer** option.
 # * adds the import reference to 'simpledialog'
 # * adds the 'Simpledialog' menu
 # * adds the 'Ask Integer' option to the 'Simpledialog' menu
-# * adds the 'ask_Integer' handler (method) for 'Ask Integer' option
+# * adds the 'ask_Integer' handler (method) for 'Ask Integer'
 
 from tkinter import Tk, Menu, simpledialog
 
