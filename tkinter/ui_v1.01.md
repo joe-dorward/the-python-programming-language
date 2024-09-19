@@ -1,8 +1,11 @@
-This version of the Tkinter UI is a 'blank' window
+I'm digging more deeply into the use of the Tkinter package (it comes with Python) to create Python applications with 'proper' user interfaces. If you have (or can get) Python installed, you can follow along at home. 
+ 
+Just copy-n-paste each version of the self-contained application as I go, and have fun!
+
+This version, creates a 'blank' UI window.
 
 ![ui_v1.01](illustrations/ui_v1.01.png)
 
-The Python code, makes the minimum import reference to `Tk`, and then sizes & positions the 'blank' window.
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 # Program ui_v1.01.py
