@@ -1,4 +1,4 @@
-The first version of the Tkinter UI is a 'blank' window
+This version of the Tkinter UI is a 'blank' window
 
 ![ui_v1.01](illustrations/ui_v1.01.png)
 
