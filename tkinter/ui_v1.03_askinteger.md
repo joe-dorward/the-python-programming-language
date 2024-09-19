@@ -10,7 +10,7 @@ This version, adds the **Simpledialog** menu, and the **Ask Integer** option.
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 # Program ui_v1.03_askinteger.py
 # Written by: Joe Dorward
-# Started: 18/09/2024
+# Started: 19/09/2024
 
 # This program creates a Tkinter user interface
 # * adds the import reference to 'Tk'
