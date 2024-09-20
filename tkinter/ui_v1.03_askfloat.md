@@ -4,11 +4,11 @@ Just copy-n-paste each version of the self-contained application as I go, and ha
  
 This version, adds the **Simpledialog** menu, and the **Ask Float** option.
 
-![ui_v1.04_askfloat.py](illustrations/ui_v1.04_askfloat.png)
+![ui_v1.03_askfloat.py](illustrations/ui_v1.03_askfloat.png)
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.04_askfloat.py
+# Program ui_v1.03_askfloat.py
 # Written by: Joe Dorward
 # Started: 19/09/2024
 
@@ -21,9 +21,7 @@ This version, adds the **Simpledialog** menu, and the **Ask Float** option.
 # * adds 'Option 1' to the 'File' menu
 # * adds the 'stub' handler (method) for 'Option 1'
 # * adds 'Quit' option to the 'File' menu
-# v1.04
-# * adds the import reference to 'simpledialog'
-# * adds the 'Simpledialog' menu
+# v1.03_askfloat ('float' version of 'askinteger')
 # * adds the 'Ask Float' option to the 'Simpledialog' menu
 # * adds the 'ask_Float' handler (method) for 'Ask Float'
 
