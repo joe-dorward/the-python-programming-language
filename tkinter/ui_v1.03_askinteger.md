@@ -21,7 +21,7 @@ This version, adds the **Simpledialog** menu, and the **Ask Integer** option.
 # * adds 'Option 1' to the 'File' menu
 # * adds the 'stub' handler (method) for 'Option 1'
 # * adds 'Quit' option to the 'File' menu
-# v1.03
+# v1.03_askinteger
 # * adds the import reference to 'simpledialog'
 # * adds the 'Simpledialog' menu
 # * adds the 'Ask Integer' option to the 'Simpledialog' menu
