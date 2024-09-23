@@ -1,4 +1,5 @@
 
+This version, adds the import reference to `StringVar`, and `Entry`. It adds the `entry_one` widget, and `entry_one_string_variable` - binding `entry_one` to the `entry_one_string_variable`.
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 # Program ui_v1.05_label_entry.py
