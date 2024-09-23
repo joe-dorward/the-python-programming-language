@@ -2,7 +2,7 @@ I'm digging more deeply into the use of the Tkinter package (it comes with Pytho
  
 Just copy-n-paste each version of the self-contained application as I go, and have fun!
  
-This version, adds 
+This version, adds the import reference to `Label`, from which I create the 'status bar' by styling three labels to create the look and feel of an old-school application status bar. In the development of an user interface, it is often useful to have post-even feedback directly in the user interface - that's what this 'status bar' is for.
 
 ![ui_v1.04_status_bar.py](illustrations/ui_v1.04_status_bar.png)
 
