@@ -21,7 +21,7 @@ This version, adds the import reference to `Label`, from which I create the 'sta
 # * adds 'Option 1' to the 'File' menu
 # * adds the 'stub' handler (method) for 'Option 1'
 # * adds 'Quit' option to the 'File' menu
-# v1.05_label
+# v1.04_status_bar
 # * adds the import reference to 'Label'
 # * adds the status_bar_border (1px high highlight)
 # * adds the status_bar (the background)
