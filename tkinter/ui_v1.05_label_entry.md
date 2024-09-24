@@ -2,7 +2,7 @@ This version, adds a `Label` an `Entry` widgets, and a `StringVar`.
 
 ![ui_v1.05_label_entry.py](illustrations/ui_v1.05_label_entry.png)
 
-**Notice** that the `entry_one` widget is, and must be, associated with the `entry_one_string_variable` by its `textvariable` value.
+**Notice:** that the `entry_one` widget is, and must be, associated with the `entry_one_string_variable` by its `textvariable` value.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
