@@ -1,4 +1,4 @@
-This version, adds a `Label` an `Entry` widgets, and a `StringVar`. 
+This version, adds `Label` and `Entry` widgets, and a `StringVar`. 
 
 ![ui_v1.05_label_entry.py](illustrations/ui_v1.05_label_entry.png)
 
