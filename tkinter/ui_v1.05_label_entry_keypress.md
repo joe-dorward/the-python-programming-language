@@ -1,5 +1,5 @@
-Continuing the exploration of using the Tkinter package with Python, this version adds the
-functionality to respond to a 'Tab' or 'Return' keypress within the 'Entry' widget.
+Continuing the exploration of using Tkinter with Python, this version adds catching 'Tab' or
+'Return' keypress within the 'Entry' widget.
 
 ![ui_v1.05_label_entry.py](illustrations/ui_v1.05_label_entry.png)
 
