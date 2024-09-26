@@ -1,5 +1,5 @@
-Continuing the exploration of using Tkinter with Python, this version adds catching 'Tab' or
-'Return' keypress within the 'Entry' widget.
+Continuing the exploration of using Tkinter with Python, this version adds a 'Listbox' widget,
+and the functionality to add strings to it.
 
 ![ui_v1.06_askstring_listbox.py](illustrations/ui_v1.06_askstring_listbox.png)
 
