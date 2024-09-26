@@ -40,8 +40,6 @@ def add_Menubar():
     # add 'File' menu
     file_menu = Menu(menubar_1)
     menubar_1.add_cascade(menu=file_menu, label='File')
-
-    # add options to 'File' menu
     file_menu.add_command(label='Quit', command=ui.quit)
 
     # add 'Listbox' menu
