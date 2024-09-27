@@ -1,5 +1,5 @@
 Continuing the exploration of using Tkinter with Python, this version adds
-the functionality to to raise a 'showinfo' messagebox.
+the functionality to raise a 'showinfo' messagebox.
 
 ![ui_v1.07_showinfo.py](illustrations/ui_v1.07_showinfo.png)
 
