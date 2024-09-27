@@ -17,9 +17,7 @@ the functionality to raise a 'showinfo' messagebox when the checkbutton is check
 # ui_v1.08_showinfo_checkbutton
 # * adds the import reference to 'Checkbutton'
 # * adds the import reference to 'IntVar'
-
-
-# * adds handler (method) to handle the show_Info option
+# * adds handler (method) to handle the checking / unchecking
 
 from tkinter import Tk, Menu, messagebox as showinfo_1, Checkbutton, IntVar
 
