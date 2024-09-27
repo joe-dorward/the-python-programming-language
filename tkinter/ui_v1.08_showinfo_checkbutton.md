@@ -74,7 +74,7 @@ def show_Info():
         checked_state = 'checked'
 
     showinfo_1.showinfo(title="Show Info",
-                        message="Checkbutton' is: '{}'".format(checked_state))
+                        message="The Checkbutton is: '{}'".format(checked_state))
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
     print("----------------------------------------------------")
