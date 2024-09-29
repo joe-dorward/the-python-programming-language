@@ -4,7 +4,7 @@ those radiobutton are clicked.
 
 |||
 |-|-|
-|this|![ui_v1.09_showinfo_radiobutton.py](illustrations/ui_v1.09_showinfo_radiobutton.png)|
+|![ui_v1.09_showinfo_radiobutton.py](illustrations/ui_v1.09_showinfo_radiobutton_ui.png)|![ui_v1.09_showinfo_radiobutton.py](illustrations/ui_v1.09_showinfo_radiobutton_dialog.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
