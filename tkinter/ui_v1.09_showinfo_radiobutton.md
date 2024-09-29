@@ -1,6 +1,6 @@
 Continuing the exploration of using Tkinter with Python, this version adds
 three 'Radiobutton' widgets, and the functionality to raise a 'showinfo' messagebox when
-those radiobutton are clicked.
+those radiobuttons are clicked.
 
 |||
 |-|-|
