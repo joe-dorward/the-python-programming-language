@@ -2,7 +2,7 @@ I'm digging more deeply into the use of the Tkinter package (it comes with Pytho
  
 Just copy-n-paste each version of the self-contained application as I go, and have fun!
  
-This version, adds the **File** menu.
+This version, adds a 'Menu' widget (a menubar), and adds the **File** menu to it.
 
 ![ui_v1.02_menubar.py](illustrations/ui_v1.02_menubar.png)
 
@@ -14,13 +14,13 @@ This version, adds the **File** menu.
 
 # This program creates a Tkinter user interface
 # * adds the import reference to 'Tk'
+# v1.02
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# v1.02
-# * adds the 'File' menu
-# * adds 'Option 1' to the 'File' menu
-# * adds the 'stub' handler (method) for 'Option 1'
-# * adds 'Quit' option to the 'File' menu
+# * adds the file_menu menu
+# * adds the 'Report' option to the file_menu menu
+# * adds the 'report' handler (method) for the 'Report' option
+# * adds the 'Quit' option to the file_menu menu
 
 from tkinter import Tk, Menu
 
@@ -33,25 +33,28 @@ ui_width = 16 * 20
 ui_height = 9 * 20
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 def add_Menubar():
-    # adds menubar_1
+    # adds menubar_1, file_menu & its options
     print("[DEBUG] Add_Menubar() called")
 
+    # add menubar_1
     menubar_1 = Menu(ui)
 
-    # add 'File' menu
+    # ---------- ---------- ---------- ---------- ---------- 
+    # add file_menu to menubar_1
     file_menu = Menu(menubar_1)
     menubar_1.add_cascade(menu=file_menu, label='File')
 
-    # add options to 'File' menu
-    file_menu.add_command(label='Option 1', command=stub)
+    # add options to file_menu
+    file_menu.add_command(label='Report', command=report)
     file_menu.add_command(label='Quit', command=ui.quit)
-
+    # ---------- ---------- ---------- ---------- ----------
+    
     # show menubar_1 in UI
     ui['menu'] = menubar_1
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def stub():
-    # handles any call
-    print("[DEBUG] stub() called")
+def report():
+    # handles the 'Report' option
+    print("[DEBUG] report() called")
 
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
