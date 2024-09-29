@@ -2,7 +2,9 @@ Continuing the exploration of using Tkinter with Python, this version adds
 a 'Checkbutton' (the Tkinter name for a Checkbox), and
 the functionality to raise a 'showinfo' messagebox when the checkbutton is checked / unchecked.
 
-![ui_v1.08_showinfo_checkbutton.py](illustrations/ui_v1.08_showinfo_checkbutton.png)
+|||
+|-|-|
+|![ui_v1.08_showinfo_checkbutton.py](illustrations/ui_v1.08_showinfo_checkbutton_ui.png)|![ui_v1.08_showinfo_checkbutton.py](illustrations/ui_v1.08_showinfo_checkbutton_dialog.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
