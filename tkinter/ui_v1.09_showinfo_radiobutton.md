@@ -2,7 +2,9 @@ Continuing the exploration of using Tkinter with Python, this version adds
 three 'Radiobutton' widgets, and the functionality to raise a 'showinfo' messagebox when
 those radiobutton are clicked.
 
-![ui_v1.09_showinfo_radiobutton.py](illustrations/ui_v1.09_showinfo_radiobutton.png)
+|||
+|-|-|
+|this|![ui_v1.09_showinfo_radiobutton.py](illustrations/ui_v1.09_showinfo_radiobutton.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
