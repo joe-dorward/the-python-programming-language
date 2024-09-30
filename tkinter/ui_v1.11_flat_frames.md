@@ -1,5 +1,5 @@
 Continuing the exploration of using Tkinter with Python, this version adds
-a 'Frame' widget with the `relief` attribute set to `flat`.
+'Frame' widgets with their `relief` attribute set to `flat`.
 The second example has its `highlightthickness` attribute set to `8`.
 
 ![ui_v1.11_flat_frames.py](illustrations/ui_v1.11_flat_frames.png)
