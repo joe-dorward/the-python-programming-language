@@ -48,7 +48,7 @@ def add_Menubar():
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 def add_Sunken_Frames():
     # adds 'sunken' frames
-    print("[DEBUG] add_Raised_Frames() called")
+    print("[DEBUG] add_Sunken_Frames() called")
 
     x_offset = 10
     y_offset = 10
