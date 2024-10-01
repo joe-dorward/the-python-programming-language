@@ -1,6 +1,7 @@
 Continuing the exploration of using Tkinter with Python, this version adds
 'LabelFrame' widgets with their 'relief' attribute set to 'groove'.
-Since 'groove' is the default-relief, specifying it is unnecessary.
+Since 'groove' is the default-relief value of 'LabelFrame' widgets,
+specifying `relief='groove'` is unnecessary.
 
 The second example has its 'highlightthickness' attribute set to '8'.
 
