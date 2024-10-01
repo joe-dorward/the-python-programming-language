@@ -1,5 +1,6 @@
 Continuing the exploration of using Tkinter with Python, this version adds
 'Frame' widgets with their 'relief' attribute set to 'groove'.
+
 The second example has its 'highlightthickness' attribute set to '8'.
 
 ![ui_v1.11_ridge_frames.py](illustrations/ui_v1.11_ridge_frames.png)
