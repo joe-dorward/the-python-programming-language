@@ -61,6 +61,7 @@ def add_Flat_Frames():
     frame_top = y_offset
 
     flat_frame_1 = Frame(ui,
+                         relief='flat',
                          name="flat_frame_1")
     
     flat_frame_1.place(x=frame_left,
@@ -72,8 +73,8 @@ def add_Flat_Frames():
     frame_left = (2 * x_offset) + frame_width
 
     flat_frame_2 = Frame(ui,
-                         background='lightgray',
                          relief='flat',
+                         background='lightgray',
                          highlightthickness=8,
                          name="flat_frame_2")
     
