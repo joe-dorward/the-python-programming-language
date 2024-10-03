@@ -2,7 +2,9 @@ Continuing the exploration of using Tkinter with Python, this version adds a
 'Button' widget, and the functionality to change the current working directory
 of the application.
 
-![ui_v1.14_get_path_askdirectory.py](illustrations/ui_v1.14_get_path_askdirectory.png)
+|||
+|-|-|-|
+|![ui_v1.14_get_path_askdirectory_before.py](illustrations/ui_v1.14_get_path_askdirectory_before.png)|![ui_v1.14_get_path_askdirectory_after.py](illustrations/ui_v1.14_get_path_askdirectory_after.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
