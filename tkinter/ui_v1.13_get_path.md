@@ -1,6 +1,7 @@
 Continuing the exploration of using Tkinter with Python, this version adds
-'Label' widgets (one with its 'relief' attribute set to 'sunken') and 'on start-up'
-assigns its 'text' attribute to the current working directory of the application.
+'Label' widgets (one with its 'relief' attribute set to 'sunken') and, on start-up,
+assigns the 'text' attribute of that 'Label' widget to the current working directory
+of the application.
 
 ![ui_v1.13_get_path.py](illustrations/ui_v1.13_get_path.png)
 
