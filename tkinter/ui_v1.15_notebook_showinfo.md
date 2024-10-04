@@ -1,5 +1,6 @@
 Continuing the exploration of using Tkinter with Python, this version adds a
-'Notebook' widget
+'Notebook' widget (the Tkinter name for a Tab widget) and 'Frame' widgets 
+(the Tkinter name for Tab pages).
 
 |||
 |-|-|
