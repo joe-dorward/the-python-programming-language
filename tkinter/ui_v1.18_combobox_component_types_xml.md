@@ -12,11 +12,11 @@ XML data from a file:
 ```
 |||
 |-|-|
-|![ui_v1.18_combobox.component_types_xml.py](illustrations/ui_v1.18_combobox.component_types_xml_before.png)|![ui_v1.18_combobox.component_types_xml.py](illustrations/ui_v1.18_combobox.component_types_xml_after.png)|
+|![ui_v1.18_combobox_component_types_xml.py](illustrations/ui_v1.18_combobox.component_types_xml_before.png)|![ui_v1.18_combobox_component_types_xml.py](illustrations/ui_v1.18_combobox.component_types_xml_after.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.18_combobox.component_types_xml
+# Program ui_v1.18_combobox_component_types_xml
 # Written by: Joe Dorward
 # Started: 08/10/2024
 
