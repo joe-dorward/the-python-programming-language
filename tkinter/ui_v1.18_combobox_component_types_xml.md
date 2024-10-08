@@ -1,6 +1,6 @@
 Continuing the exploration of using Tkinter with Python, this version adds
 the functionality to populate the options of a 'Combobox' widget by parsing
-XML data from a file:
+XML data from a file in the form:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
