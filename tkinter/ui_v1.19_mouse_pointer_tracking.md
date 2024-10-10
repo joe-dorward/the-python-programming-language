@@ -1,6 +1,5 @@
 Continuing the exploration of using Tkinter with Python, this version adds
-the functionality to populate the options of a 'Combobox' widget by parsing
-XML data from a file in the form:
+tracking the coordinates of the mouse pointer within the user interface.
 
 ![ui_v1.19_mouse_pointer_tracking.py](illustrations/ui_v1.19_mouse_pointer_tracking.png)
 
