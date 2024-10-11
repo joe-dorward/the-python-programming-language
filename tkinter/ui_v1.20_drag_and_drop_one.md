@@ -2,7 +2,10 @@ Continuing the exploration of using Tkinter with Python, this version adds
 a draggable object (a 'Label' widget), reporting about where it is 'dropped'
 and a 'Reset' option to the 'File' menu.
 
-![ui_v1.20_drag_and_drop_one.py](illustrations/ui_v1.20_drag_and_drop_one.png)
+|||
+|-|-|
+|![ui_v1.20_drag_and_drop_one.py](illustrations/ui_v1.20_drag_and_drop_one_before.png)|
+![ui_v1.20_drag_and_drop_one.py](illustrations/ui_v1.20_drag_and_drop_one_after.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
