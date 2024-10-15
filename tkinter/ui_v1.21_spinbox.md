@@ -16,6 +16,7 @@ a 'Spinbox' widget.
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
 # v1.21_spinbox
+# * adds the import reference to 'Label'
 # * adds the import reference to 'Spinbox'
 
 from tkinter import Tk, Menu, Label, Spinbox
