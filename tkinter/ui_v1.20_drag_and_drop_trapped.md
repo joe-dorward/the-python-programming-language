@@ -1,6 +1,5 @@
-Continuing the exploration of using Tkinter with Python, this version adds
-a draggable object (the blue 'Label' widget), reporting about where it is 'dropped'
-and a 'Reset' option to the 'File' menu.
+Continuing the exploration of using Tkinter with Python, this version
+sets boundaries, and traps the draggable object (blue 'Label' widget) within them.
 
 |||
 |-|-|
