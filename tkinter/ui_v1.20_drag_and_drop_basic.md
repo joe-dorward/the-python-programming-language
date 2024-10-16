@@ -4,11 +4,11 @@ and a 'Reset' option to the 'File' menu.
 
 |||
 |-|-|
-|![ui_v1.20_drag_and_drop_one.py](illustrations/ui_v1.20_drag_and_drop_one_before.png)|![ui_v1.20_drag_and_drop_one.py](illustrations/ui_v1.20_drag_and_drop_one_after.png)|
+|![ui_v1.20_drag_and_drop_basic.py](illustrations/ui_v1.20_drag_and_drop_basic_before.png)|![ui_v1.20_drag_and_drop_basic.py](illustrations/ui_v1.20_drag_and_drop_basic_after.png)|
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.20_drag_and_drop_one
+# Program ui_v1.20_drag_and_drop_basic
 # Written by: Joe Dorward
 # Started: 10/10/2024
 
@@ -16,7 +16,7 @@ and a 'Reset' option to the 'File' menu.
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# ui_v1.20_drag_and_drop_one
+# ui_v1.20_drag_and_drop_basic
 # * adds & adapts 'status_bar'
 # * adds a draggable object (a 'Label' widget)
 # * adds a 'Reset' option to the 'File' menu
