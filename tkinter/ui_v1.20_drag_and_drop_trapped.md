@@ -1,5 +1,5 @@
 Continuing the exploration of using Tkinter with Python, this version
-sets boundaries, and traps the draggable object (blue 'Label' widget) within them.
+sets boundaries, and traps a draggable object (the blue 'Label' widget) within them.
 
 |||
 |-|-|
