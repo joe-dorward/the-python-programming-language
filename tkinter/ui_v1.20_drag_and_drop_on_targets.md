@@ -4,8 +4,8 @@ and four 'target objects' (light-blue, light-green, light-red, light-gold).
 
 Any 'draggable object' can be dragged onto any 'target object' (in any order).
 
-|||
-|-|-|
+||||
+|-|-|-|
 |![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_one.png)|![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_two.png)|![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_three.png)|
 
 ```Python
