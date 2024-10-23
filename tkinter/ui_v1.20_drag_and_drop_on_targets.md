@@ -4,6 +4,12 @@ and four 'target objects' (light-blue, light-green, light-red, light-gold).
 
 Any 'draggable object' can be dragged onto any 'target object' (in any order).
 
+This functionality provides the fundemental functionality of a drag-and-drop configuration
+user interface - that is, establishing one-to-many, many-to-one, or many-to-many relationships
+between 'things'. For example, imagine that the 'draggable objects' represent purchase orders
+and the 'target objects' represent invoices. This functionality would enable a user to reconcile
+purchase orders with invoices by dragging-and-dropping a purchase order onto an invoice.
+
 ||||
 |-|-|-|
 |![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_one.png)|![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_two.png)|![ui_v1.20_drag_and_drop_on_targets.py](illustrations/ui_v1.20_drag_and_drop_on_targets_three.png)|
