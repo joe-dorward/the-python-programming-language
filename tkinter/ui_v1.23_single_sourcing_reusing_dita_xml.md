@@ -1,4 +1,13 @@
-The promise of DITA XML includes the creation of *reusable content* (that is) content that is created as stand-alone components (the *single source*) that are available to be reused by anyone for any purpose, and that (as in this example) includes the text in the user interface being 'read in' from a DITA XML file during a build.
+Continuing the exploration of using Tkinter with Python, this version adds
+the functionality to 'read in' the text of the user interface from a DITA
+XML file - reducing the need for developers to 'get involved' with the
+actual words of the user interface.
+
+The promise of DITA XML includes the creation of *reusable content* (that is)
+content that is created as stand-alone components (the *single source*) that
+are available to be reused by anyone for any purpose, and that (as in this 
+example) includes the text in the user interface being 'read in' from a DITA
+XML file during a build.
 
 ```dita
 <?xml version="1.0" encoding="UTF-8"?>
