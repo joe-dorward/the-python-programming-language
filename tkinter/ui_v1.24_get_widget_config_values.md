@@ -307,25 +307,6 @@ def report_Widget_Config_Values(widget):
 
         for each_property in each_child.config():
             print("   ",each_property + "=" + str(each_child.cget(each_property)))
-# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def get_Widget_Config_Values():
-    # gets .config values
-    print("[DEBUG] get_Widget_Config() called")
-
-    print("\nThe child widgets of 'ui':")
-    for each_child in ui.winfo_children():
-        print(" ",each_child.winfo_name())
-
-        for each_property in each_child.config():
-            print("   ",each_property + "=" + str(each_child.cget(each_property)))
-
-        for each_grandchild in each_child.winfo_children():
-            print("     ",each_grandchild.winfo_name())
-
-            for each_property in each_grandchild.config():
-                print("       ",each_property + "=" + str(each_grandchild.cget(each_property)))
-
-
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
     print("----------------------------------------------------")
