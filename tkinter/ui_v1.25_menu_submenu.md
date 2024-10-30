@@ -1,5 +1,5 @@
 Continuing the exploration of using Tkinter with Python, this version adds
-a menu, with a sub-menu, and a sub-sub-menu.
+a menu as `menu_1`, with a sub-menu as `sub_menu_1`, and a sub-sub-menu as `sub_sub_menu_1`.
 
 |||
 |-|-|
