@@ -1,5 +1,5 @@
-Several years ago, I took on the task to to research and develop *RackBuilder*
-– a drag-and-drop DHTML web-application.
+Several years ago, I took on the task to to research and develop a drag-and-drop
+data-centre rack configuration web-application with HTML, CSS, and JavaScript (DHTML).
 
 The web-application would read a Sales Order (an XML component list) and draw
 a data-centre rack layout based on positional information in the Sales Order. 
