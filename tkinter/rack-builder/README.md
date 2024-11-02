@@ -15,6 +15,7 @@ customer data centres.
 * `rack_builder_v1.02_read_xml.py` - reads the Sales Order and puts the data-values
 into Python dictionaries
 
+**DEFINITIONS**
 In the context of this project, think of a:
 * **Rack** as a 'frame' that has 42 spaces (called Units)
  
