@@ -1,5 +1,7 @@
 Continuing the exploration of using Tkinter with Python, this version
-is a digression into reading this XML data from a file.
+is a digression into reading XML data from a file, and adding it to a
+Python dictionary - single-dimention Python dictionaries are a list of
+key-value pairs, where eack key MUST be unique.
 
 ```xml
 <?xml version='1.0'?>
@@ -16,7 +18,7 @@ is a digression into reading this XML data from a file.
 </racks>
 ```
 This version reads the list of rack-identifiers, and adds them to the
-one-dimensional Python dictionary `rack_dictionary`.
+one-dimensional `rack_dictionary`.
 It then prints its contents in both [RAW] and [FORMATTED] forms.
 
 ```
