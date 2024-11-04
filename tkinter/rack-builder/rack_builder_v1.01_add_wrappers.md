@@ -7,6 +7,10 @@ I decided on a width of 150 pixels and a height of 13 pixels because that worked
 laptop screen. I decided that `tabs_wrapper_width` should be 1/3 of the user interface,
 but that may change in future versions.
 
+<p align="center">
+<img alt="rack_builder_v1.01_add_wrappers.py" src="illustrations/rack_builder_v1.01_add_wrappers.png" width="500" />
+</p>
+
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 # Program rack_builder_v1.01_add_wrappers.py
