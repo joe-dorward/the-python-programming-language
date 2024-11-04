@@ -315,7 +315,6 @@ def list_Chassis_Data():
 
     print("  [FORMATTED]")
     for each_key, each_value in chassis_dictionary.items():
-        #print("    {}={}".format(each_key,each_value))
         print("    {}:".format(each_key))
 
         for each_sub_key in each_value:
