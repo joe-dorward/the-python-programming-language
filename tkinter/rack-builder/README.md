@@ -11,9 +11,9 @@ VISIO illustration of the rack layout for use by installation engineers in
 customer data centres.
 
 **DATA & CODE VERSIONS**
-* [sales_order_00.xml](sales_order_00.xml) - is the XML data-file used
-* [rack_builder_v1.01_add_wrappers.py](rack_builder_v1.01_add_wrappers.py) - adds three 'wrapper' Frame widgets
-* [rack_builder_v1.02_read_xml.py](rack_builder_v1.02_read_xml.py) - reads the Sales Order and puts the data-values
+* [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
+* [`rack_builder_v1.01_add_wrappers.py`](rack_builder_v1.01_add_wrappers.md) - adds three 'wrapper' Frame widgets
+* [`rack_builder_v1.02_read_xml.py`](rack_builder_v1.02_read_xml.md) - reads the Sales Order and puts the data-values
 into Python dictionaries
 
 **DEFINITIONS**
