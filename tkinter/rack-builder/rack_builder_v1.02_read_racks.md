@@ -2,7 +2,7 @@ This version reads the rack-data from the Sales Order, adds it to the Python **D
 named `rack_dictionary`, then prints its contents in both [RAW] (manually re-formatted for 
 space and clarity), and [FORMATTED] forms.
 
-```Python:Racks
+```Python
 [RAW]
 {
   'Rack 1': {'stencil': 'NetApp-Cabinets.vss', 'name': '42U Cabinet', 'position': '1'},
@@ -10,7 +10,7 @@ space and clarity), and [FORMATTED] forms.
   'Rack 3': {'stencil': 'NetApp-Cabinets.vss', 'name': '42U Cabinet', 'position': '4'}
 }
 ```
-```Python:Racks
+```Python
 [FORMATTED]
   Rack 1:
     stencil=NetApp-Cabinets.vss
