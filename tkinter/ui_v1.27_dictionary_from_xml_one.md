@@ -38,7 +38,7 @@ It then prints its contents in both [RAW] and [FORMATTED] forms.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.27_dictionary_from_xml_single.py
+# Program ui_v1.27_dictionary_from_xml_one.py
 # Written by: Joe Dorward
 # Started: 03/11/2024
 
@@ -46,10 +46,10 @@ It then prints its contents in both [RAW] and [FORMATTED] forms.
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# ui_v1.27_dictionary_from_xml_single
+# ui_v1.27_dictionary_from_xml_one
 # * adds the import reference to 'os'
 # * adds the import reference to 'xml.dom.minidom'
-# * reads single-dimension XML rack-data from a file, and
+# * reads one-dimension XML rack-data from a file, and
 # * puts that rack-data into the rack_dictionary, then
 # * list the contents of the rack_dictionary
 
