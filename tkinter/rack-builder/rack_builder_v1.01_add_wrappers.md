@@ -199,7 +199,6 @@ def list_Child_Widgets(parent_widget):
     print("The child-widgets are:")
     for each_child in parent_widget.winfo_children():
         print(" ",each_child.winfo_name())
-
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
     print("----------------------------------------------------")
