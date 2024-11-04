@@ -4,7 +4,9 @@ to `generic_component_width` and `generic_component_height` - the widths and hei
 every other object in the user interface is calculated from those values. 
 
 I decided on a width of 150 pixels and a height of 13 pixels because that worked for my
-laptop screen. I decided that `tabs_wrapper_width` should be 1/3 of the user interface,
+laptop screen. 
+
+I also decided that `tabs_wrapper_width` should be 1/3 of the user interface,
 but that may change in future versions.
 
 <p align="center">
