@@ -36,15 +36,9 @@ space and clarity), and [FORMATTED] forms.
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# rack_builder_v1.01_read_racks
-# * adds the import reference to 'Frame'
-# * adds the import reference to 'Label'
-# * adds the tabs_wrapper
-# * adds the components_wrapper
-# * adds the racks_wrapper
-# rack_builder_v1.02_read_xml
-# * adds the import reference to 'os'
-# * adds the import reference to 'xml.dom.minidom'
+# rack_builder_v1.02_read_racks
+# * adds the functionality to add rack data to the rack_dictionary
+# * adds the functionality to print rack data from the rack_dictionary
 
 from tkinter import Tk, Menu, Frame, Label
 import os
@@ -52,7 +46,6 @@ import xml.dom.minidom
 
 # global dictionaries
 rack_dictionary = {}
-chassis_dictionary = {}
 # ========== ========== ========== ========== ========== ========== ========== ==========
 # the offsets are the horizontal and vertical spacing between widgets
 x_offset = 2
