@@ -1,4 +1,3 @@
-```xml
 <?xml version='1.0'?>
 <racks>
   <rack>
@@ -109,4 +108,3 @@
     </chassis>   
   </rack>
 </racks>
-```
