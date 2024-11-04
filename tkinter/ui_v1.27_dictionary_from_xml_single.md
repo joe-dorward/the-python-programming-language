@@ -1,7 +1,6 @@
 Continuing the exploration of using Tkinter with Python, this version
-is a digression into reading XML data from a file, and adding it to a
-Python dictionary - single-dimention Python dictionaries are a list of
-key-value pairs, where eack key MUST be unique.
+is a digression into reading XML data from a file and adding it to a
+Python **Dictionary**.
 
 ```xml
 <?xml version='1.0'?>
@@ -17,8 +16,13 @@ key-value pairs, where eack key MUST be unique.
   </rack>
 </racks>
 ```
-This version reads the list of rack-identifiers, and adds them to the
-one-dimensional `rack_dictionary`.
+
+Although a 'single-dimension' list of values (such as this) SHOULD be loaded into
+a Python **List**, this example is *about* showing you how to load them into a
+Python dictionary.
+
+Since, Python dictionaries are a list of key-value pairs, where eack key MUST be
+unique, this example generates its own unique-keys for the values.
 It then prints its contents in both [RAW] and [FORMATTED] forms.
 
 ```
