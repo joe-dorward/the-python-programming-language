@@ -27,7 +27,8 @@ Python **Dictionary**.
 ```
 
 This version uses the value of `identifier` as the unique-key for the Python dictionary.
-It then prints its contents in both [RAW] (manually re-formatted for space and clarity) and [FORMATTED] forms.
+It then prints its contents in both [RAW] (manually re-formatted for space and clarity)
+and [FORMATTED] forms.
 
 ```python
 [RAW] {
@@ -52,7 +53,7 @@ It then prints its contents in both [RAW] (manually re-formatted for space and c
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.27_dictionary_from_xml_double.py
+# Program ui_v1.27_dictionary_from_xml_two.py
 # Written by: Joe Dorward
 # Started: 03/11/2024
 
@@ -60,7 +61,7 @@ It then prints its contents in both [RAW] (manually re-formatted for space and c
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# ui_v1.27_dictionary_from_xml_double
+# ui_v1.27_dictionary_from_xml_two
 # * reads two-dimension XML rack-data from a file, and
 # * puts that rack-data into the rack_dictionary, then
 # * list the contents of the rack_dictionary
