@@ -13,8 +13,7 @@ customer data centres.
 **DATA & CODE VERSIONS**
 * [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
 * [`rack_builder_v1.01_add_wrappers.py`](rack_builder_v1.01_add_wrappers.md) - adds three 'wrapper' Frame widgets
-* [`rack_builder_v1.02_read_xml.py`](rack_builder_v1.02_read_xml.md) - reads the Sales Order and puts the data-values
-into Python dictionaries
+* [`rack_builder_v1.02_read_racks.py`](rack_builder_v1.02_read_racks.md) - reads 'rack data' into a Python **Dictionary**, and prints it out
 
 **DEFINITIONS**
 In the context of this project, think of a:
