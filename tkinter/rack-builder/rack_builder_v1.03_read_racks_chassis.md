@@ -337,13 +337,13 @@ if __name__ == '__main__':
     add_Components_Wrapper()
     add_Components_Wrapper_Label(components_wrapper)
     add_Racks_Wrapper()
+    #list_Child_Widgets(ui)
 
     get_Rack_Data()
     list_Rack_Data()
 
     get_Chassis_Data()
     list_Chassis_Data()
-    #list_Child_Widgets(ui)
 
     ui.mainloop()
     print("----------------------------------------------------\n")
