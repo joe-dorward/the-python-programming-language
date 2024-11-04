@@ -2,7 +2,7 @@ This version adds, reading the chassis-data from the Sales Order, adding it to t
 named `chassis_dictionary`, then printing its contents in both [RAW] (manually re-formatted for 
 space and clarity), and [FORMATTED] forms.
 
-```python:chassis
+```python
 [RAW]
 {
   'Chassis 1:1': {'stencil': 'NetApp-FAS-Series.vss', 'name': 'FAS8060 DC rear', 'u': '15'},
@@ -10,7 +10,7 @@ space and clarity), and [FORMATTED] forms.
 }
 ```
 
-```python:chassis
+```python
 [FORMATTED]
   Chassis 1:1:
     stencil=NetApp-FAS-Series.vss
