@@ -1,0 +1,112 @@
+```xml
+<?xml version='1.0'?>
+<racks>
+  <rack>
+    <identifier>Rack 1</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>1</position> 
+
+    <chassis>
+      <identifier>Chassis 1:1</identifier>
+      <stencil>NetApp-FAS-Series.vss</stencil>
+      <name>FAS8060 DC rear</name>
+      <u>15</u> 
+
+      <controller>
+        <identifier>Controller A</identifier>
+
+        <shelves>
+          <shelf>
+            <identifier>Shelf 2</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>24</u>
+            <owner>A</owner>
+          </shelf>
+
+          <shelf>
+            <identifier>Shelf 1</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>21</u>
+            <owner>A</owner>
+          </shelf>
+
+        </shelves>
+      </controller> 
+
+      <controller>
+        <identifier>Controller B</identifier>
+
+        <shelves>
+          <shelf>
+            <identifier>Shelf 1</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>10</u>
+            <owner>B</owner>
+          </shelf>
+
+          <shelf>
+            <identifier>Shelf 2</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>7</u>
+            <owner>B</owner>
+          </shelf>
+        </shelves>
+      </controller>
+    </chassis>
+  </rack> 
+
+  <rack>
+    <identifier>Rack 2</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>2</position>
+  </rack> 
+
+  <rack>
+    <identifier>Rack 3</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>4</position> 
+
+    <chassis>
+      <identifier>Chassis 3:1</identifier>
+      <stencil>NetApp-FAS-Series.vss</stencil>
+      <name>FAS8060 DC rear</name>
+      <u>10</u>
+
+      <controller>
+        <identifier>Controller A</identifier> 
+
+        <shelves>
+          <shelf>
+            <identifier>Shelf 1</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>19</u>
+            <owner>-</owner>
+          </shelf>
+        </shelves>
+      </controller>
+          
+      <controller>
+        <identifier>Controller B</identifier> 
+
+        <shelves>
+          <shelf>
+            <identifier>Shelf 1</identifier>
+            <stencil>NetApp-Disk-Shelves.vss</stencil>
+            <name>DS14mk4 FC rear</name>
+            <u>4</u>
+            <owner>-</owner>
+          </shelf>
+        </shelves>
+      </controller>
+    </chassis>   
+  </rack>
+</racks>
+```
