@@ -1,34 +1,8 @@
-This version reads the rack-data from the Sales Order, adds it to the Python **Dictionary**
-named `rack_dictionary`, then prints its contents in both [RAW] (manually re-formatted for 
-space and clarity), and [FORMATTED] forms.
-
-```Python
-[RAW]
-{
-  'Rack 1': {'stencil': 'NetApp-Cabinets.vss', 'name': '42U Cabinet', 'position': '1'},
-  'Rack 2': {'stencil': 'NetApp-Cabinets.vss', 'name': '42U Cabinet', 'position': '2'},
-  'Rack 3': {'stencil': 'NetApp-Cabinets.vss', 'name': '42U Cabinet', 'position': '4'}
-}
-```
-```Python
-[FORMATTED]
-  Rack 1:
-    stencil=NetApp-Cabinets.vss
-    name=42U Cabinet
-    position=1
-  Rack 2:
-    stencil=NetApp-Cabinets.vss
-    name=42U Cabinet
-    position=2
-  Rack 3:
-    stencil=NetApp-Cabinets.vss
-    name=42U Cabinet
-    position=4
-```
+This version adds the `switches_wrapper`, the `controllers_wrapper`, and the `disk_shelves_wrapper`.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program rack_builder_v1.02_read_racks.py
+# Program rack_builder_v1.02_add_component_wrappers.py
 # Written by: Joe Dorward
 # Started: 08/10/2024
 
@@ -36,16 +10,13 @@ space and clarity), and [FORMATTED] forms.
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# rack_builder_v1.02_read_racks
-# * adds the functionality to add rack data to the rack_dictionary
-# * adds the functionality to print rack data from the rack_dictionary
+# rack_builder_v1.02_add_component_wrappers
+# * adds the switches_wrapper
+# * adds the controllers_wrapper
+# * adds the disk_shelves_wrapper
 
 from tkinter import Tk, Menu, Frame, Label
-import os
-import xml.dom.minidom
 
-# global dictionaries
-rack_dictionary = {}
 # ========== ========== ========== ========== ========== ========== ========== ==========
 # the offsets are the horizontal and vertical spacing between widgets
 x_offset = 2
@@ -101,7 +72,7 @@ component_font = ('Arial',7,'normal')
 component_wrapper_label_height = 20
 component_wrapper_width = generic_component_width + (2 * x_offset)
 component_wrapper_height = int(((components_wrapper_height - component_wrapper_label_height) - (4 * y_offset)) / 3) - 1
-#print(int(component_wrapper_height))
+print(int(component_wrapper_height))
 
 # outer wrapper (x1)
 components_wrapper_label_height = 24
@@ -121,25 +92,7 @@ disk_shelves_wrapper_top = controllers_wrapper_top + component_wrapper_height + 
 # RACKS WRAPPER ---------- ---------- ---------- ---------- ----------
 racks_wrapper_left = components_wrapper_left + components_wrapper_width + x_offset
 racks_wrapper_width = ui_width - tabs_wrapper_width - components_wrapper_width - (4 * x_offset)
-# ========== ========== ========== ========== ========== ========== ========== ==========
-# UTILLITY FUNCTIONS
-# ========== ========== ========== ========== ========== ========== ========== ==========
-def list_Child_Widgets(parent_widget):
-    # lists the child-widgets of a parent-widget
-    print("[DEBUG] list_Child_Widgets() called")
 
-    print("  The child-widgets are:")
-    for each_child in parent_widget.winfo_children():
-        print("   ",each_child.winfo_name())
-# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def get_Node_Text(node):
-    # returns node-name (if first-character of the node-value is the return-character)
-    # returns node-value (if first-character of the node-value is NOT the return-character)
-
-    if ord(node.firstChild.nodeValue[0]) == 10:
-        return node.nodeName
-    else:
-        return node.firstChild.nodeValue
 # ========== ========== ========== ========== ========== ========== ========== ==========
 # MENUBAR
 # ========== ========== ========== ========== ========== ========== ========== ==========
@@ -207,6 +160,75 @@ def add_Components_Wrapper_Label(parent_widget):
                                    y=0,
                                    width=components_wrapper_width,
                                    height=components_wrapper_label_height)
+# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+def add_Controllers_Wrapper(parent_widget):
+    # add controller_wrapper
+    print("[DEBUG] add_Controller_Wrapper() called")
+
+    # add controllers_wrapper
+    controllers_wrapper = Frame(parent_widget, background='Lavender', name='controller_wrapper')
+    controllers_wrapper.place(x=x_offset,
+                              y=controllers_wrapper_top,
+                              width=component_wrapper_width,
+                              height=component_wrapper_height)
+
+    # add controller_wrapper_label
+    controllers_wrapper_label = Label(controllers_wrapper,
+                                      text='Controllers',
+                                      background='Lavender',
+                                      foreground='gray')
+    
+    controllers_wrapper_label.place(x=0,
+                                    y=0,
+                                    width=component_wrapper_width,
+                                    height=component_wrapper_label_height)
+# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+def add_Switches_Wrapper(parent_widget):
+    # add switches_wrapper
+    print("[DEBUG] add_Switches_Wrapper() called")
+
+    # add switches_wrapper
+    switches_wrapper = Frame(parent_widget, background='Honeydew', name='switches_wrapper')
+    switches_wrapper.place(x=x_offset,
+                           y=switches_wrapper_top,
+                           width=component_wrapper_width,
+                           height=component_wrapper_height)
+
+    # add switches_wrapper_label
+    switches_wrapper_label = Label(switches_wrapper,
+                                   text='Switches',
+                                   background='Honeydew',
+                                   foreground='gray')
+    
+    switches_wrapper_label.place(x=0,
+                                 y=0,
+                                 width=component_wrapper_width,
+                                 height=component_wrapper_label_height)
+# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+def add_Disk_Shelves_Wrapper(parent_widget):
+    # add disk_shelves_wrapper
+    print("[DEBUG] add_Disk_Shelves_Wrapper() called")
+
+    # add disk_shelves_wrapper
+    disk_shelves_wrapper = Frame(parent_widget,
+                                 background='Cornsilk',
+                                 name='disk_shelves_wrapper')
+    
+    disk_shelves_wrapper.place(x=x_offset,
+                               y=disk_shelves_wrapper_top,
+                               width=component_wrapper_width,
+                               height=component_wrapper_height)
+
+    # add disk_shelves_wrapper_label
+    disk_shelves_wrapper_label = Label(disk_shelves_wrapper,
+                                       text='Disk Shelves',
+                                       background='Cornsilk',
+                                       foreground='gray')
+    
+    disk_shelves_wrapper_label.place(x=0,
+                                     y=0,
+                                     width=component_wrapper_width,
+                                     height=component_wrapper_label_height)
 # ========== ========== ========== ========== ========== ========== ========== ==========
 # RACKS WRAPPER
 # ========== ========== ========== ========== ========== ========== ========== ==========
@@ -223,56 +245,17 @@ def add_Racks_Wrapper():
                         y=y_offset,
                         width=racks_wrapper_width,
                         height=racks_wrapper_height)
-# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def get_Rack_Data():
-    # gets rack-data from sales_order
-    print("\n[DEBUG] get_Rack_Data() called")
+# ========== ========== ========== ========== ========== ========== ========== ==========
+# UTILLITY FUNCTIONS
+# ========== ========== ========== ========== ========== ========== ========== ==========
+def list_Child_Widgets(parent_widget):
+    # lists the child-widgets of a parent-widget
+    print("[DEBUG] list_Child_Widgets() called")
 
-    # get path to file
-    path_to_file = os.getcwd() + "\\sales_order_00.xml"
+    print("The child-widgets are:")
+    for each_child in parent_widget.winfo_children():
+        print(" ",each_child.winfo_name())
 
-    # parse file
-    sales_order = xml.dom.minidom.parse(path_to_file)
-
-    # get the 'rack' nodes
-    rack_list = sales_order.getElementsByTagName("rack")
-    #print("  The {} rack data-items are:".format(len(rack_list)))
-
-    for each_rack in rack_list:
-        #print(each_rack.nodeName) # prints the node-name
-
-        for each_data_item in each_rack.childNodes:
-            if (each_data_item.nodeType == 1):
-                
-                if each_data_item.nodeName == 'identifier':
-                    identifier = get_Node_Text(each_data_item)
-
-                elif each_data_item.nodeName == 'stencil':
-                    stencil = get_Node_Text(each_data_item)
-
-                elif each_data_item.nodeName == 'name':
-                    name = get_Node_Text(each_data_item)
-
-                elif each_data_item.nodeName == 'position':
-                    position = get_Node_Text(each_data_item)
-                    
-        rack_dictionary.update({identifier: {'stencil':stencil, 'name':name, 'position':position}})
-
-    #print(rack_dictionary)
-# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-def list_Rack_Data():
-    # lists rack-data
-    print("[DEBUG] list_Rack_Data() called")
-
-    print("  [RAW] {}".format(rack_dictionary))
-
-    print("  [FORMATTED]")
-    for each_key, each_value in rack_dictionary.items():
-        #print("    {}={}".format(each_key,each_value))
-        print("    {}:".format(each_key))
-
-        for each_sub_key in each_value:
-            print("      {}={}".format(each_sub_key, each_value[each_sub_key]))
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
     print("----------------------------------------------------")
@@ -289,11 +272,13 @@ if __name__ == '__main__':
     add_Tabs_Wrapper()
     add_Components_Wrapper()
     add_Components_Wrapper_Label(components_wrapper)
-    add_Racks_Wrapper()
     #list_Child_Widgets(ui)
 
-    get_Rack_Data()
-    list_Rack_Data()
+    add_Switches_Wrapper(components_wrapper)
+    add_Controllers_Wrapper(components_wrapper)
+    add_Disk_Shelves_Wrapper(components_wrapper)
+
+    add_Racks_Wrapper()
 
     ui.mainloop()
     print("----------------------------------------------------\n")
