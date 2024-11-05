@@ -1,5 +1,4 @@
-This version adds the `rack_dictionary`, gets the rack-data and adds the racks specified
-by the rack-data.
+This version adds the `rack_dictionary`, reads the rack-data, and adds the racks from it.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
