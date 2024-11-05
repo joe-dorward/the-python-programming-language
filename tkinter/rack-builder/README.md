@@ -14,7 +14,7 @@ customer data centres.
 * [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
 * [`rack_builder_v1.01_add_wrappers.py`](rack_builder_v1.01_add_wrappers.md) - adds three 'wrapper' Frame widgets
 * [`rack_builder_v1.02_add_component_wrappers.py`](rack_builder_v1.02_add_component_wrappers.md) - add 'component' wrappers to the 'components' wrapper
-* [`rack_builder_v1.03_add_racks`](rack_builder_v1.03_add_racks.md) - reads the rack-data, and adds the racks from it
+* [`rack_builder_v1.03_add_racks.py`](rack_builder_v1.03_add_racks.md) - reads the rack-data, and adds the racks from it
 
 **DEFINITIONS**
 In the context of this project, think of a:
