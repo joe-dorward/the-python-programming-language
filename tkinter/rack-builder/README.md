@@ -14,7 +14,7 @@ customer data centres.
 In the context of this project, think of a:
 * **Rack** as a 'frame' that has 42 spaces (called Units)
 
-**SCENARIO**
+**SCENARIO 01**
 One of your customers is a small business with a few racks.
 They've just ordered a Switch, a Controller, and two Disk Shelves (see `sales_order_01.xml`). 
 
