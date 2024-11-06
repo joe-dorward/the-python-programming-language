@@ -1,4 +1,5 @@
 <?xml version='1.0'?>
+
 <racks>
   <rack>
     <identifier>Rack 3</identifier>
@@ -21,14 +22,6 @@
     <position>3</position>
   </rack>
 
-  <controllers>
-    <controller>
-      <identifier>CT-0001</identifier>
-      <stencil>Visio-Controllers.vss</stencil>
-      <name>CT-1-1-1-A</name>
-    </controller>
-  </controllers>
-
   <switches>
     <switch>
       <identifier>SW-0001</identifier>
@@ -36,6 +29,14 @@
       <name>SW-1-1-1-A</name>
     </switch>
   </switches>
+
+  <controllers>
+    <controller>
+      <identifier>CT-0001</identifier>
+      <stencil>Visio-Controllers.vss</stencil>
+      <name>CT-1-1-1-A</name>
+    </controller>
+  </controllers>
 
   <shelves>
     <shelf>
