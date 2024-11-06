@@ -284,7 +284,7 @@ def get_Rack_Data():
     print("[DEBUG] get_Rack_Data() called")
 
     # get path to file
-    path_to_file = os.getcwd() + "\\sales_order_00.xml"
+    path_to_file = os.getcwd() + "\\sales_order_01.xml"
 
     # parse file
     sales_order = xml.dom.minidom.parse(path_to_file)
