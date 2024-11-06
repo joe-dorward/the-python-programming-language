@@ -19,7 +19,7 @@ In the context of this project, think of a:
 
 One of your customers is a small business with a few racks.
 They've just ordered a Switch, a Controller, and two Disk Shelves (see `sales_order_01.xml`). 
-
+Their 3rd, 4th, and 5th rack are empty - you are free to put the components anywhere.
 
 **DATA**
 * [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
