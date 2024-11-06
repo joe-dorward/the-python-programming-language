@@ -10,10 +10,17 @@ The updated Sales Order would then be 'read' by VISIO - VBA to create a
 VISIO illustration of the rack layout for use by installation engineers in
 customer data centres.
 
-**DATA**
-* [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
-
 **DEFINITIONS**
 In the context of this project, think of a:
 * **Rack** as a 'frame' that has 42 spaces (called Units)
+
+**SCENARIO**
+One of your customers is a small business with a few racks.
+They've just ordered a Switch, a Controller, and two Disk Shelves (see `sales_order_01.xml`). 
+
+
+**DATA**
+* [`sales_order_00.xml`](sales_order_00.xml) - is the XML data-file used
+
+
  
