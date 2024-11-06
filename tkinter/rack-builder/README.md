@@ -12,8 +12,8 @@ customer data centres.
 
 **DEFINITIONS**
 
-In the context of this project, think of a:
-* **Rack** as a 'frame' that has 42 spaces (called Units)
+In the context of this project:
+* A **Rack** is a 'frame' withs 42 spaces, each of which is called a Unit
 
 **SCENARIO 01**
 
