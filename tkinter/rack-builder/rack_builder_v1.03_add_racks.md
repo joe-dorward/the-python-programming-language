@@ -1,4 +1,5 @@
-This version adds the `rack_dictionary`, reads the rack-data, and adds the racks from it.
+This version adds the `rack_dictionary`, and reads the XML rack-data from the Sales Order into it.
+It also adds the 'Rack' menu, and its 'Add Racks' option.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
@@ -15,7 +16,8 @@ This version adds the `rack_dictionary`, reads the rack-data, and adds the racks
 # * adds the import reference to 'xml.dom.minidom'
 # * adds the rack_dictionary
 # * gets the rack data
-# * adds the racks, labels, and units
+# * adds the 'Rack' menu
+# * adds the 'Add Racks' option to the 'Rack' menu
 
 from tkinter import Tk, Menu, Frame, Label
 import os
@@ -131,6 +133,13 @@ def add_Menubar():
     file_menu = Menu(menubar_1, name='file_menu')
     menubar_1.add_cascade(menu=file_menu, label='File')
     
+    # ---------- ---------- ---------- ---------- ----------
+    # add 'Racks' menu
+    racks_menu = Menu(menubar_1)
+    menubar_1.add_cascade(menu=racks_menu, label='Racks')
+    racks_menu.add_command(label='Add Racks', command=add_Racks)
+    # ---------- ---------- ---------- ---------- ----------
+
     # add options to file_menu
     file_menu.add_command(label='Quit', command=ui.quit)    
     # ---------- ---------- ---------- ---------- ---------- 
@@ -423,7 +432,7 @@ if __name__ == '__main__':
     add_Racks_Wrapper()
     get_Rack_Data()
     #list_Rack_Data()
-    add_Racks()
+    #add_Racks()
 
     ui.mainloop()
     print("----------------------------------------------------\n")
