@@ -1,5 +1,5 @@
-*This version is a 'special case' for clarity - it can only be used to add Switches.
-Later versions will be more generic*
+<p align="center"><em>This version is a switch-specific 'special case' for clarity.
+Later versions will refactor its funcionality to be generic - to work with 'components'</em></p>
 
 This version adds the `switch_dictionary`, and reads the XML switch-data from the Sales Order into it.
 It also adds the 'Switch' menu, and its 'Add Switches' option.
