@@ -7,38 +7,54 @@ Python **Dictionary**.
 <racks>
   <rack>
     <identifier>Rack 1</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>1</position>
   </rack>
   <rack>
     <identifier>Rack 2</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>2</position>
   </rack>
   <rack>
     <identifier>Rack 3</identifier>
+    <stencil>NetApp-Cabinets.vss</stencil>
+    <name>42U Cabinet</name>
+    <position>4</position>
   </rack>
 </racks>
 ```
 
-Although a 'single-dimension' list of values (such as this) SHOULD be loaded into
-a Python **List**, this example is *about* showing you how to load them into a
-Python dictionary.
-
 Since, Python dictionaries are a list of key-value pairs, where eack key MUST be
 unique, this example generates its own unique-keys for the values.
-It then prints its contents in both [RAW] and [FORMATTED] forms.
+It then prints its contents in both [RAW] (manually formatted for space) and [FORMATTED] forms.
 
 ```
-[RAW] {'unique_key_1': 'Rack 1', 'unique_key_2': 'Rack 2', 'unique_key_3': 'Rack 3'}
+[RAW]
+{
+  'Rack 1': {'name': '42U Cabinet', 'position': '1'},
+  'Rack 2': {'name': '42U Cabinet', 'position': '2'},
+  'Rack 3': {'name': '42U Cabinet', 'position': '4'}
+}
 ```
 
 ```
-[FORMATTED]
-  unique_key_1=Rack 1
-  unique_key_2=Rack 2
-  unique_key_3=Rack 3
+  [FORMATTED]
+    Rack 1:
+      name=42U Cabinet
+      position=1
+    Rack 2:
+      name=42U Cabinet
+      position=2
+    Rack 3:
+      name=42U Cabinet
+      position=4
 ```
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
-# Program ui_v1.27_dictionary_from_xml_one.py
+# Program ui_v1.27_dictionary_from_xml_two.py
 # Written by: Joe Dorward
 # Started: 03/11/2024
 
@@ -46,10 +62,8 @@ It then prints its contents in both [RAW] and [FORMATTED] forms.
 # * adds the import reference to 'Tk'
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
-# ui_v1.27_dictionary_from_xml_one
-# * adds the import reference to 'os'
-# * adds the import reference to 'xml.dom.minidom'
-# * reads one-dimension XML rack-data from a file, and
+# ui_v1.27_dictionary_from_xml_two
+# * reads two-dimension XML rack-data from a file, and
 # * puts that rack-data into the rack_dictionary, then
 # * list the contents of the rack_dictionary
 
@@ -103,7 +117,7 @@ def get_Rack_Data():
     print("[DEBUG] get_Rack_Data() called")
 
     # get path to file
-    path_to_file = os.getcwd() + "\\xml\\racks_00.xml"
+    path_to_file = os.getcwd() + "\\xml\\racks_01.xml"
 
     # parse file
     inventory = xml.dom.minidom.parse(path_to_file)
@@ -112,7 +126,6 @@ def get_Rack_Data():
     rack_list = inventory.getElementsByTagName("rack")
     print("  The {} rack data-items are:".format(len(rack_list)))
 
-    rack_counter = 0
     for each_rack in rack_list:
         #print(each_rack.nodeName) # prints the node-name
 
@@ -120,14 +133,15 @@ def get_Rack_Data():
             if (each_data_item.nodeType == 1):
                 
                 if each_data_item.nodeName == 'identifier':
-                    # each dictionary item must have a unique-key if the XML nodes
-                    # are not unique, a unique-key must be generated for each one
-                    rack_counter = rack_counter + 1
-                    unique_key = 'unique_key_' + str(rack_counter)
-
                     identifier = get_Node_Text(each_data_item)
-                    print("    `identifier'={}".format(identifier))
-                    rack_dictionary.update({unique_key:identifier})
+
+                elif each_data_item.nodeName == 'name':
+                    name = get_Node_Text(each_data_item)
+
+                elif each_data_item.nodeName == 'position':
+                    position = get_Node_Text(each_data_item)
+                    
+        rack_dictionary.update({identifier: {'name':name, 'position':position}})
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 def list_Rack_Data():
     # lists rack-data
@@ -137,10 +151,14 @@ def list_Rack_Data():
 
     print("  [FORMATTED]")
     for each_key, each_value in rack_dictionary.items():
-        print("    {}={}".format(each_key,each_value))
+        #print("    {}={}".format(each_key,each_value))
+        print("    {}:".format(each_key))
+
+        for each_sub_key in each_value:
+            print("      {}={}".format(each_sub_key, each_value[each_sub_key]))
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
-    print("----------------------------------------------------")
+    print("\n----------------------------------------------------")
 
     # create the 'blank' UI window
     ui = Tk()
