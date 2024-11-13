@@ -5,10 +5,11 @@ The second illustration shows the user interface after `button_1`, `button_2`,
 `button_1`, `button_2`, and `button_3_14` have been clicked.
 
 The `button_3_14` inserts the text `[INSERTED]` at line=3, and character=14.
-**Know this** - 'Line 3' is not the third-line that you see in the 'Text' widget,
+
+**Know this**: 'Line 3' is not the third-line that you see in the 'Text' widget,
 'Line 3' is the text between the second and third newline / linebreak.
 
-`button_4` prints the text of the 'Text' widget to the console.
+Clicking `button_4` prints the text of the 'Text' widget to the console.
 
 |||
 |-|-|
