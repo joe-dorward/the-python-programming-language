@@ -5,9 +5,9 @@ application, and more like a web-application running in a browser.
 Pressing 'F11' toggles the user interface between the 'in screen' default
 view and the 'full screen' view.
 
-||
-|-|
-|![ui_v1.29_webby_ui.py](illustrations/ui_v1.29_webby_ui.png)|
+<p align="center">
+  <img width="600" alt="ui_v1.29_webby_ui.py" src="illustrations/ui_v1.29_webby_ui.png" />
+</p>
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
