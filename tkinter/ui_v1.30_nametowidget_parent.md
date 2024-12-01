@@ -8,7 +8,7 @@ each folder has a unique path, likewise, each widget of a Tkinter
 application also has a unique path. 
 
 <p align="center">
-  <img width="600" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.30_nametowidget_parent.png" />
+  <img width="400" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.30_nametowidget_parent.png" />
 </p>
 
 When this application runs, the `list_Widgets()` prints the information
