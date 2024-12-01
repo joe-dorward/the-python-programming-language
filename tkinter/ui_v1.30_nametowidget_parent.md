@@ -3,7 +3,9 @@ window, and all the widgets on it, exist as part of a hierarchy (like
 the folder structure of an operating system).
 
 Continuing the exploration of using Tkinter with Python, this version
-explores that hierarchy.
+explores that hierarchy. In the structure of an operating system,
+each folder has a unique path, likewise, each widget of a Tkinter
+application also has a unique path. 
 
 <p align="center">
   <img width="600" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.30_nametowidget_parent.png" />
