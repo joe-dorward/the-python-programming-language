@@ -6,13 +6,13 @@ Continuing the exploration of using Tkinter with Python, this version
 explores that hierarchy.
 
 <p align="center">
-  <img width="600" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.ui_v1.30_nametowidget_parent.png" />
+  <img width="600" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.30_nametowidget_parent.png" />
 </p>
 
 When this application runs, the `list_Widgets()` prints the information
 of the 'parent' user interface to the console.
 
-```Console
+```
 [DEBUG] list_Widgets() called
 
 The parent is:
