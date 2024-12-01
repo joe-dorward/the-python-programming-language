@@ -1,11 +1,11 @@
-One of the coolest features of Tkinter, is the fact that user interface
+One of the coolest features of Tkinter, is the fact that the user interface
 window, and all the widgets on it, exist as part of a hierarchy (like
 the folder structure of an operating system).
 
 Continuing the exploration of using Tkinter with Python, this version
 explores that hierarchy. In the structure of an operating system,
-each folder has a unique path, likewise, each widget of a Tkinter
-application also has a unique path. 
+each folder has a unique path, and, in the hierarchy a Tkinter
+application, each widget has a unique path. 
 
 <p align="center">
   <img width="400" alt="ui_v1.30_nametowidget_parent.py" src="illustrations/ui_v1.30_nametowidget_parent.png" />
