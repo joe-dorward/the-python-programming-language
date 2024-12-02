@@ -1,6 +1,6 @@
 One of the coolest features of Tkinter, is the fact that the user interface
-window, and all the widgets on it, exist as part of a hierarchy (like
-the folder structure of an operating system).
+window and all its widgets, exist as a hierarchy (like the folder structure
+of an operating system) and are (therefor) iterable.
 
 Continuing the exploration of using Tkinter with Python, this version
 explores that hierarchy. In the structure of an operating system,
