@@ -14,7 +14,7 @@ application, each widget has a unique path.
 When this application runs, the `list_Widgets()` prints the information
 of the 'parent' user interface to the console.
 
-```
+```Console
 [DEBUG] list_Widgets() called
 
 The parent is:
