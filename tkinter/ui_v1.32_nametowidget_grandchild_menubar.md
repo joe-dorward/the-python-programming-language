@@ -29,9 +29,11 @@ The parent is:
       grandchild-path='.menubar_1.file_menu' <- adding a 'dot + name' for a grandchild path
 ```
 
-The *parent* is the user interface
-The *child* is the menubar
-The *grandchild* is the file-menu
+The *parent* is the user interface.
+
+The *child* is the menubar.
+
+The *grandchild* is the file-menu.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
