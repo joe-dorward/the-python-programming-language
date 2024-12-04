@@ -1,4 +1,4 @@
-Continuing the exploration of using Tkinter with Python, this version includes
+Continuing the exploration of using Tkinter with Python, this version continues
 the exploration of the tkinter 'widget' hierarchy from the *parent* to *grandchild*,
 while adding the use of the `nametowidget()` method.
 
