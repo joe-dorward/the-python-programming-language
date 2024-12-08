@@ -2,6 +2,11 @@ Continuing the exploration of using Tkinter with Python, this version
 begins the exploration of using Python *Lists* for storing and processing
 data.
 
+For this example, the *List* is hard-coded.
+```Python
+compact_disk_list = ['Pelican West', 'Hunky Dory', 'Rio', 'Avalon']
+```
+
 |||
 |-|-|
 |![lists_v1.01.py](illustrations/lists_v1.01_first.png)|![lists_v1.01.py](illustrations/lists_v1.01_second.png)|
@@ -30,7 +35,7 @@ The list has: 4 items
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
 # lists_v1.01.py
-# * adds the pre-populated 'List' named 'compact_disk_list'
+# * adds the hard-coded 'List' named 'compact_disk_list'
 # * adds the 'List' menu to menubar_1
 # * adds the 'Print (compact disks)' option to the 'List' menu
 # * adds the handler (method) for the 'Print (compact disks)' option
