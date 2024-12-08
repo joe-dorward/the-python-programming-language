@@ -2,7 +2,7 @@ Continuing the exploration of using Tkinter with Python, this version
 begins the exploration of using Python *Lists* for storing and processing
 data.
 
-For this example, the *List* is hard-coded.
+In this version, the *List* is hard-coded.
 ```Python
 compact_disk_list = ['Pelican West', 'Hunky Dory', 'Rio', 'Avalon']
 ```
