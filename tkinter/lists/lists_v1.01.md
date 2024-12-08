@@ -1,4 +1,23 @@
+Continuing the exploration of using Tkinter with Python, this version 
+begins the exploration of using Python *Lists* for storing and processing
+data.
 
+|||
+|-|-|
+|![lists_v1.01.py](illustrations/lists_v1.01_first.png)|![lists_v1.01.py](illustrations/lists_v1.01_second.png)|
+
+When the *Print (compact disks)* option is selected, the items in the
+list are printed to the console.
+
+```Console
+[DEBUG] print_List() called
+
+The list has: 4 items
+  1. Pelican West
+  2. Hunky Dory
+  3. Rio
+  4. Avalon
+```
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
