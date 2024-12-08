@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     # create the 'blank' user interface
     ui = Tk()
-    ui.title("Dictionaries")
+    ui.title("Lists")
     ui.geometry('%dx%d+%d+%d' % (ui_width, ui_height, ui_left, ui_top))
     ui.wm_resizable(width=False, height=False)
     ui.option_add('*tearOff', False)
