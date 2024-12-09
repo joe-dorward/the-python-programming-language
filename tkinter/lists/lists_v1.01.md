@@ -17,11 +17,11 @@ list are printed to the console.
 ```Console
 [DEBUG] print_List() called
 
-The list has: 4 items
-  1. Pelican West
-  2. Hunky Dory
-  3. Rio
-  4. Avalon
+There are: 4 Compact Disks
+  Pelican West
+  Hunky Dory
+  Rio
+  Avalon
 ```
 
 ```Python
@@ -35,10 +35,10 @@ The list has: 4 items
 # * adds the import reference to 'Menu'
 # * adds the menubar_1
 # lists_v1.01.py
-# * adds the hard-coded 'List' named 'compact_disk_list'
-# * adds the 'List' menu to menubar_1
-# * adds the 'Print (compact disks)' option to the 'List' menu
-# * adds the handler (method) for the 'Print (compact disks)' option
+# * adds the hard-coded list named 'compact_disk_list'
+# * adds the 'Print' menu to menubar_1
+# * adds the 'Compact Disks' option to the 'Print' menu
+# * adds the handler (method) for the 'Compact Disks' option
 
 from tkinter import Tk, Menu
 
@@ -61,13 +61,13 @@ def add_Menubar(parent_widget):
     file_menu.add_command(label='Quit',
                           command=parent_widget.quit)
     # ---------- ---------- ---------- ---------- ----------
-    # add 'List' menu
-    list_menu = Menu(menubar_1)
-    menubar_1.add_cascade(menu=list_menu, label='List')
+    # add 'Print' menu
+    print_menu = Menu(menubar_1)
+    menubar_1.add_cascade(menu=print_menu, label='Print')
 
     # add options
-    list_menu.add_command(label='Print (compact disks)',
-                          command=lambda:print_List(compact_disk_list))
+    print_menu.add_command(label='Compact Disks',
+                           command=lambda:print_List(compact_disk_list))
     # ---------- ---------- ---------- ---------- ----------
 
     # show menubar_1 in the user interface
@@ -77,12 +77,10 @@ def print_List(the_list):
     # prints a list
     print("[DEBUG] print_List() called\n")
 
-    print("The list has: {} items".format(len(the_list)))
+    print("There are: {} Compact Disks:".format(len(the_list)))
 
-    item_counter = 0
     for each_item in the_list:
-        item_counter += 1
-        print("  {}. {}".format(item_counter, each_item))
+        print("  {}".format(each_item))
 # MAIN ///// ////////// ////////// ////////// ////////// ////////// ////////// //////////
 if __name__ == '__main__':        
     print("====================================================")
