@@ -11,7 +11,7 @@ compact_disk_list = ['Pelican West', 'Hunky Dory', 'Rio', 'Avalon']
 |-|-|
 |![lists_v1.01.py](illustrations/lists_v1.01_first.png)|![lists_v1.01.py](illustrations/lists_v1.01_second.png)|
 
-When the *Print (compact disks)* option is selected, the items in the
+When the `Print` > `Compact Disks` option is selected, the items in the
 list are printed to the console.
 
 ```Console
