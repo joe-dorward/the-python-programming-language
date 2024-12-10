@@ -3,7 +3,7 @@ begins the exploration of using Python *Dictionaries* for storing and
 processing data.
 
 In Python, *Dictionaries* are generally referred to as being 
-"*lists of key value pairs*", with the first-item of the pair being the
+"*lists of key - value pairs*", with the first-item of the pair being the
 **key**, and the second-item of the pair being the **value**.
 
 In any dictionary, the keys *MUST BE* unique, but the values *CAN BE*
