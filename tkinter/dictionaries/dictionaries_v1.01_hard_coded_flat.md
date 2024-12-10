@@ -25,8 +25,8 @@ compact_disk_dictionary = {
 |-|-|
 |![dictionaries_v1.01_hard_coded_flat.py](illustrations/dictionaries_v1.01_hard_coded_flat_first.png)|![dictionaries_v1.01_hard_coded_flat.py](illustrations/dictionaries_v1.01_hard_coded_flat_second.png)|
 
-When the `Print` > `Compact Disks` option is selected, the items in the
-list are printed to the console.
+When the `Print` > `Compact Disks` option is selected, the keys and values
+in the dictionary are printed to the console.
 
 ```Console
 [DEBUG] print_Dictionary({}) called
