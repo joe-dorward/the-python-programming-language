@@ -7,10 +7,14 @@ In Python, *Dictionaries* are generally referred to as being
 **key**, and the second-item of the pair being the **value**.
 
 In any dictionary, **keys** *MUST BE* unique, but **values** *CAN BE*
-duplicates (or more).
+duplicates (or more). In this version, the *Dictionary* is hard-coded.
+In it, the keys are unique, but there is a duplicate value.
 
-In this version, the *Dictionary* is hard-coded. In it, the keys
-are unique, but there is a duplicate value.
+Although the keys in this example are unique within the dictionary, it
+*IS NOT* a 'good' example of a Python dictionary - the keys in this example
+are as much data as the values are. 
+In a better example, the keys would be more-like unique-identifiers
+(in the database sense) and less-like unique data-values.
 
 ```Python
 compact_disk_dictionary = {
