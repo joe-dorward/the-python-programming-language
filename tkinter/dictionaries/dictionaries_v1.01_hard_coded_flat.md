@@ -18,7 +18,7 @@ In a better example, the keys would be more-like unique-identifiers
 
 ```Python
 compact_disk_dictionary = {
-    'Flesh & Blood':'Roxy Music',
+    'Flesh and Blood':'Roxy Music',
     'Hunky Dory':'David Bowie',
     'Rio':'Duran Duran',
     'Avalon':'Roxy Music'
@@ -36,7 +36,7 @@ in the dictionary are printed to the console.
 [DEBUG] print_Dictionary({}) called
 
 There are: 4 Compact Disks:
-  Title=Flesh & Blood, Artist=Roxy Music
+  Title=Flesh and Blood, Artist=Roxy Music
   Title=Hunky Dory, Artist=David Bowie
   Title=Rio, Artist=Duran Duran
   Title=Avalon, Artist=Roxy Music
