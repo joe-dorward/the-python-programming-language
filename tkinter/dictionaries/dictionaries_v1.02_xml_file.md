@@ -32,11 +32,9 @@ version will use those unique values as the **keys** of the dictionary.
 </compact-disks>
 ```
 
-|||
-|-|-|
-|
-![dictionaries_v1.02_xml_file.py](illustrations/dictionaries_v1.02_xml_file_first.png)|
-![dictionaries_v1.02_xml_file.py](illustrations/dictionaries_v1.02_xml_file_second.png)|
+||||
+|-|-|-|
+|![dictionaries_v1.02_xml_file.py](illustrations/dictionaries_v1.02_xml_file_first.png)|![dictionaries_v1.02_xml_file.py](illustrations/dictionaries_v1.02_xml_file_second.png)|![dictionaries_v1.02_xml_file.py](illustrations/dictionaries_v1.02_xml_file_third.png)|
 
 When the `Import` > `Compact Disks` option is selected, the data from a selected
 file are read into the *Dictionary*.
