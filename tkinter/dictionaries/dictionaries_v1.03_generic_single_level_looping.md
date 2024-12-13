@@ -8,7 +8,6 @@ This version demonstrates the simple use of a `for` loop to generically process 
 **[DISCLAIMER]** Although the keys in this example are unique within the dictionary, it
 *IS NOT* a 'good' example of a Python dictionary - the keys in this example
 are as much data as the values are. 
-
 ```Python
 compact_disk_dictionary = {
     'Flesh and Blood':'Roxy Music',
@@ -16,6 +15,17 @@ compact_disk_dictionary = {
     'Rio':'Duran Duran',
     'Avalon':'Roxy Music'
 }
+```
+
+When the `Print` > `Single` option is selected, the keys and values
+in the dictionary are printed to the console.
+```Console
+There are: 4 items:
+
+  key=Flesh & Blood, value=Roxy Music
+  key=Hunky Dory, value=David Bowie
+  key=Rio, value=Duran Duran
+  key=Avalon, value=Roxy Music
 ```
 
 ```Python
