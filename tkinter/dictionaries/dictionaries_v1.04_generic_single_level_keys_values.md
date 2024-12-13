@@ -4,8 +4,8 @@ processing data.
 
 This version demonstrates the simple use of the `keys()`, and `values()`
 methods to generically process the **keys**, and **values** of dictionaries.
-This version also demnstrates that the results of the `keys()`, and
-`values()` methods can subscriptable when 'cast' as a Python **List**.
+This version also demonstrates that the results of the `keys()`, and
+`values()` methods can be subscriptable when 'cast' as a Python **List**.
 
 **[DISCLAIMER]** Although the keys in this example are unique within the
 dictionary, it *IS NOT* a 'good' example of a Python dictionary - the keys
