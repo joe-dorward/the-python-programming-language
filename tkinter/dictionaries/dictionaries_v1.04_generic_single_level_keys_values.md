@@ -2,12 +2,14 @@ Continuing the exploration of using Tkinter with Python, this version
 continues the exploration of using Python *Dictionaries* for storing and
 processing data.
 
-This version demonstrates the simple use of the `keys()`, and `values()` methods
-to generically process the **keys**, and **values** of dictionaries. 
+This version demonstrates the simple use of the `keys()`, and `values()`
+methods to generically process the **keys**, and **values** of dictionaries.
+This version also demnstrates that the results of the `keys()`, and
+`values()` methods can subscriptable when 'cast' as a Python **List**.
 
-**[DISCLAIMER]** Although the keys in this example are unique within the dictionary, it
-*IS NOT* a 'good' example of a Python dictionary - the keys in this example
-are as much data as the values are. 
+**[DISCLAIMER]** Although the keys in this example are unique within the
+dictionary, it *IS NOT* a 'good' example of a Python dictionary - the keys
+in this example are as much data as the values are. 
 ```Python
 compact_disk_dictionary = {
     'Flesh and Blood':'Roxy Music',
