@@ -13,6 +13,11 @@ double_level_dictionary = {
     '123-1237': { 'title':'Avalon', 'artist':'Roxy Music' }
 }
 ```
+
+||
+|-|
+|![dictionaries_v1.05_generic_double_level_looping.py](illustrations/dictionaries_v1.05_generic_double_level_looping.png)|
+
 When the `Print` > `Double (looping)` option is selected, the keys and values
 in the dictionary are printed to the console.
 ```Console
