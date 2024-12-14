@@ -3,7 +3,7 @@ continues the exploration of using Python *Dictionaries* for storing and
 processing data.
 
 This version demonstrates the generic processing of a double-level /
-doublely-nested dictionary with nested `for` loops.
+doubly-nested dictionary with nested `for` loops.
 
 ```Python
 double_level_dictionary = {
