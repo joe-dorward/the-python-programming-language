@@ -56,7 +56,8 @@ def print_xml_heartbeat():
 
 **My `testing_packages_v1.01.py` file**
 
-This is my `testing_packages_v1.01.py` file
+This is my `testing_packages_v1.01.py` file.
+
 The `sys.path.insert(0, "C:/Users/Joe/Documents/My Programming/Python/")` line tells Python
 where to look for anything (my packages) that it does not aready 'know' about.
 
