@@ -77,8 +77,13 @@ if __name__ == '__main__':
     print_xml.print_xml_heartbeat()
 ```
 
+When `testing_packages_v1.01.py` runs, `print_file_system_heartbeat()`,
+and `print_xml_heartbeat()` prints their output to the console.
+
 ```Console
 ====================================================
 [PACKAGES] __init__.py called
+====================================================
 [TESTING] print_file_system_heartbeat() called
 [TESTING] print_xml_heartbeat() called
+```
