@@ -1,6 +1,6 @@
-**[DISCLAIMER]** I am *NOT* sure that any of the following is *CORRECT* - but it works for me.
+**[DISCLAIMER]** I am *NOT* sure how much of the following is *CORRECT* - but it works for me.
 
-On my computer, that path to my 'parent' Python folder is:
+On my computer, the path to my 'parent' Python folder is:
 ```Console
 C:\Users\Joe\Documents\My Programming\Python
 ```
