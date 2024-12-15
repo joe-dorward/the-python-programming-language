@@ -8,7 +8,7 @@ C:\Users\Joe\Documents\My Programming\Python
 **My `packages` folder**
 
 Below my 'parent' Python folder, is my `packages` folder, where I have decided to start
-adding generically useful methods - this is how that folder (a time of writing) looks.
+adding generically useful methods - this is how that folder (at time of writing) looks.
 
 <p alt="packages folder" align="center"><img src="illustrations/packages.png" /></p>
 
