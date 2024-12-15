@@ -79,7 +79,7 @@ if __name__ == '__main__':
 ```
 
 When `testing_packages_v1.01.py` runs, `print_file_system_heartbeat()`,
-and `print_xml_heartbeat()` prints their output to the console.
+and `print_xml_heartbeat()` print their output to the console.
 
 ```Console
 ====================================================
