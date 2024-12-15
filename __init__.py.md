@@ -14,7 +14,7 @@ adding generically useful methods - this is how that folder (at time of writing)
 
 **My `__init__.py` file**
 
-This is my `__init__.py file
+This is my `__init__.py` file
 ```Python
 print("\n====================================================")
 print("[PACKAGES] __init__.py called")
