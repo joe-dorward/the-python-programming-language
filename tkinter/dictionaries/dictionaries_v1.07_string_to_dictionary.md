@@ -14,7 +14,7 @@ dictionary_string = "{ 'SW-0001': {'stencil': 'Visio-Switches.vss', 'model': 'SW
 |![dictionaries_v1.07_string_to_dictionary.py](illustrations/dictionaries_v1.07_string_to_dictionary.png)|
 
 When the `Show Me` > `String to Dictionary` option is selected, content of
-`dictionary_string` is comverted and used to populate `dictionary` with the
+`dictionary_string` is converted and used to populate `dictionary` with the
 steps of the process being printed to the console.
 
 ```Console
