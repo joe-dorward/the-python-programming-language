@@ -3,7 +3,7 @@ continues the exploration of using Python *Dictionaries* for storing and
 processing data.
 
 This version demonstrates how the dictionary-like string `dictionary_string`
-(below) can be used to populate a dictionary.
+(below) can be used to populate an actual Python dictionary.
 
 ```Python
 dictionary_string = "{ 'SW-0001': {'stencil': 'Visio-Switches.vss', 'model': 'SW-1-1-1-A'} }"
