@@ -45,10 +45,10 @@ Analysing 'books_4'
       'dust_jacket' is NOT a dictionary
 ```
 **[NOTE]** that 
-`BID_12345` is a dictionary, that 
-`book_information` is a sub-dictionary, that
-`size` is a sub-sub-dictionary, and that
-`weights` is a sub-sub-sub-dictionary.
+`BID_12345` is a sub-dictionary, that 
+`book_information` is a sub-sub-dictionary, that
+`size` is a sub-sub-sub-dictionary, and that
+`weights` is a sub-sub-sub-sub-dictionary.
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
@@ -110,7 +110,7 @@ books_3 =   {   'BID_12345':
                         'dust_jacket':'no'
                     }
                 }
-            } # 1-sub, 2-sub-subs, 1 sub-sub-sub
+            } # 1-sub, 2-sub-subs, 1-sub-sub-sub
 
 books_4 =   {   'BID_12345': 
                 { 
@@ -137,7 +137,7 @@ books_4 =   {   'BID_12345':
                         'dust_jacket':'no'
                     }
                 }
-            } # 1-sub, 2-sub-subs, 1 sub-sub-sub, 1 sub-sub-sub-sub
+            } # 1-sub, 2-sub-subs, 1-sub-sub-sub, 1-sub-sub-sub-sub
 # ========== ========== ========== ========== ========== ========== ========== ==========
 # MENUBAR
 # ========== ========== ========== ========== ========== ========== ========== ==========
