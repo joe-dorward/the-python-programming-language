@@ -9,14 +9,9 @@ Python dictionaries of 'unknown' depth.
 |-|-|
 |![dictionaries_v1.08_recursive_analysis.py](illustrations/dictionaries_v1.08_recursive_analysis.png)|![dictionaries_v1.08_recursive_analysis_books_empty.py](illustrations/dictionaries_v1.08_recursive_analysis_books_empty.png)|
 
-
-
-
-**books_empty**
-```Python
-books_empty = {}
-```
-When `books_empty` is processed, the application reports its analisis to the console. 
+When the `Analyse` > `books_empty` option is selected, the application prints
+its analysis to the console.
+. 
 ```Python
 Analysing 'books_empty'
 
@@ -24,6 +19,4 @@ Analysing 'books_empty'
 ```
 
 
-
-, keys and (whether or not) they are dictionaries are printed to the console.
 
