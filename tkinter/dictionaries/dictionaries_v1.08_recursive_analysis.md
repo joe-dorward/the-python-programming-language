@@ -12,7 +12,6 @@ Python dictionaries of 'unknown' depth.
 
 When the `Analyse` > `books_empty` option is selected, the application prints
 its analysis to the console.
-. 
 ```Console
 Analysing 'books_empty'
 
@@ -24,7 +23,7 @@ Analysing 'books_empty'
 |![dictionaries_v1.08_recursive_analysis.py](illustrations/dictionaries_v1.08_recursive_analysis.png)|![dictionaries_v1.08_recursive_analysis_books_4.py](illustrations/dictionaries_v1.08_recursive_analysis_books_4.png)|
 
 When the `Analyse` > `books_4` option is selected, the application prints
-its analysis to the console
+its analysis to the console.
 ```Console
 Analysing 'books_4'
 
