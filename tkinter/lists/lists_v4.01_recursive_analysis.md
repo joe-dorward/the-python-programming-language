@@ -45,7 +45,9 @@ Analysing 'months_4'
       ...
 ```
 **[NOTE]** that 
-
+`English` is the first item in a sub-list, that
+`January` is the first item in a sub-sub-list, that
+`Public Holidays` is the first item in a sub-sub-sub-list
 
 ```Python
 # ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
