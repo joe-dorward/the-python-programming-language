@@ -7,7 +7,7 @@ Python lists of 'unknown' depth.
 
 |||
 |-|-|
-|![lists_v4.01_recursive_analysis.py](illustrations/lists_v4.01_recursive_analysis.png)|![lists_v4.01_recursive_analysis.py](illustrations/lists_v4.01_recursive_analysis.png)|
+|![lists_v4.01_recursive_analysis.py](illustrations/lists_v4.01_recursive_analysis.png)|![lists_v4.01_recursive_analysis.py](illustrations/lists_v4.01_recursive_analysis_months_4.png)|
 
 When the `Analyse` > `months_4` option is selected, the application prints
 its analysis to the console.
